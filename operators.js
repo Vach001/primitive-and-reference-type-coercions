@@ -45,3 +45,22 @@ false + NaN                       // NaN
 'hello' + NaN                     // 'helloNaN'
 'hello' + a + b + c + d + e + f   // 'hello224heysome22[object Object]5'
 
+// unary - operator
+
+null - undefined                  // NaN
+null - true                       // -1
+null - false                      // 0
+undefined - true                  // NaN
+undefined - false                 // NaN
+undefined - 5                     // NaN
+true - false                      // 1
+true - 2                          // -1
+false - 4                         // -4
+false - NaN                       // NaN
+5 - 3                             // 2
+5 - NaN                           // NaN
+'hello' - NaN                     // NaN
+'hello' - a - b - c - d - e - f   // NaN
+
+
+

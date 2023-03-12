@@ -62,5 +62,22 @@ false - NaN                       // NaN
 'hello' - NaN                     // NaN
 'hello' - a - b - c - d - e - f   // NaN
 
+// multiplication * operator
 
+null * undefined                  // NaN
+null * true                       // 0
+null * false                      // 0
+undefined * true                  // NaN
+undefined * false                 // NaN
+undefined * 5                     // NaN
+true * false                      // 0
+true * 2                          // 2
+false * 4                         // 0
+false * NaN                       // 0 my answer, but console is NaN
+5 * 3                             // 15
+5 * NaN                           // NaN
+'hello' * NaN                     // NaN
+'hello' * a * b * c * d * e * f   // NaN
+
+console.log()
 

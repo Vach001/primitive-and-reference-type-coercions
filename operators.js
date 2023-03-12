@@ -20,7 +20,7 @@ const d = {
         return 22;     // 22
     },
 };
-const e = {};          // undefined
+const e = {};          // [object Object]
 const f = {
     toString () {
         return 5;      // 5
@@ -215,5 +215,17 @@ false <= NaN                                        // false
 'hello' <= NaN                                      // false
 'hello' <= a <= b <= c <= d <= e <= f               // false
 
+// unary - operator 
+
+-([])               // -0
+-([2])              // -2
+-([2, 3])           // NaN
+-(function() { })   // NaN
+-(a)                // -224
+-(b)                // NaN 
+-(c)                // NaN
+-(d)                // -22 
+-(e)                // NaN
+-(f)                // -5
 
 

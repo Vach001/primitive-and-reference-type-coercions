@@ -88,3 +88,11 @@ let f = {
 // (e)--                // NaN      // NaN           // NaN
 // (f)--                // 5        // 5             // 4
 
+// before and after prefix -- operator
+                        // Before   //At that time   // After
+// --(a)                // 224      // 223           // 223 
+// --(b)                // NaN      // NaN           // NaN
+// --(c)                // NaN      // NaN           // NaN
+// --(d)                // 22       // 21            // 21
+// --(e)                // NaN      // NaN           // NaN
+// --(f)                // 5        // 4             // 4

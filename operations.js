@@ -25,7 +25,7 @@ let f = {
     },
 };
 
-// -- prefix operator a, b, c, d, e and f
+// prefix -- operator a, b, c, d, e and f
 
 // --(a)                // 223
 // --(b)                // NaN 
@@ -34,11 +34,20 @@ let f = {
 // --(e)                // NaN
 // --(f)                // 4
 
-// -- postfix operator a, b, c, d, e and f
+// postfix -- operator a, b, c, d, e and f
 
-//(a)--                // 224
-//(b)--                // NaN 
-//(c)--                // NaN
-//(d)--                // 22 
-//(e)--                // NaN
-//(f)--                // 5
+// (a)--                // 224
+// (b)--                // NaN 
+// (c)--                // NaN
+// (d)--                // 22 
+// (e)--                // NaN
+// (f)--                // 5
+
+// // postfix ++ operator a, b, c, d, e and f
+
+// (a)++                // 224
+// (b)++                // NaN 
+// (c)++                // NaN
+// (d)++                // 22 
+// (e)++                // NaN
+// (f)++                // 5

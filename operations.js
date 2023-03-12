@@ -60,3 +60,12 @@ let f = {
 // (++(d)                // 23 
 // (++(e)                // NaN
 // (++(f)                // 6
+
+// before and after prefix ++ operator
+                        // Before   //At that time   // After
+// ++(a)                // 224      // 225           // 225 
+// ++(b)                // NaN      // NaN           // NaN
+// ++(c)                // NaN      // NaN           // NaN
+// ++(d)                // 22       // 23            // 23
+// ++(e)                // NaN      // NaN           // NaN
+// ++(f)                // 5        // 6             // 6

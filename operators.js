@@ -96,3 +96,22 @@ false / NaN                       // NaN
 'hello' / NaN                     // NaN
 'hello' / a / b / c / d / e / f   // NaN
 
+// modulo % operator
+
+null % undefined                  // NaN
+null % true                       // 0
+null % false                      // NaN
+undefined % true                  // NaN
+undefined % false                 // NaN
+undefined % 5                     // NaN
+true % false                      // NaN
+true % 2                          // 1
+false % 4                         // 0
+false % NaN                       // NaN
+5 % 3                             // 2
+5 % NaN                           // NaN
+'hello' % NaN                     // NaN
+'hello' % a % b % c % d % e % f   // NaN
+
+
+

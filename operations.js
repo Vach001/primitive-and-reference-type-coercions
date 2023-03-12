@@ -96,3 +96,14 @@ let f = {
 // --(d)                // 22       // 21            // 21
 // --(e)                // NaN      // NaN           // NaN
 // --(f)                // 5        // 4             // 4
+
+// get hasOwnProperty valueOf or toString
+
+a[a.hasOwnProperty('valueOf') ? 'valueOf' : 'toString'] () // 224
+b[b.hasOwnProperty('valueOf') ? 'valueOf' : 'toString'] () // 'hey'
+c[c.hasOwnProperty('valueOf') ? 'valueOf' : 'toString'] () // 'some'
+d[d.hasOwnProperty('valueOf') ? 'valueOf' : 'toString'] () // 22
+e[e.hasOwnProperty('valueOf') ? 'valueOf' : 'toString'] () // '[object Object]'
+f[f.hasOwnProperty('valueOf') ? 'valueOf' : 'toString'] () // 5
+
+

@@ -113,5 +113,21 @@ false % NaN                       // NaN
 'hello' % NaN                     // NaN
 'hello' % a % b % c % d % e % f   // NaN
 
+// double equality comparison == operator
+
+null == undefined                       // true
+null == true                            // false
+null == false                           // false
+undefined == true                       // false
+undefined == false                      // false
+undefined == 5                          // false
+true == false                           // false
+true == 2                               // false
+false == 4                              // false
+false == NaN                            // false
+5 == 3                                  // false
+5 == NaN                                // false
+'hello' == NaN                          // false
+'hello' == a == b == c == d == e == f   // false
 
 

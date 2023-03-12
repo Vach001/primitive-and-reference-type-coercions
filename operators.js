@@ -198,4 +198,22 @@ false >= NaN                                        // false
 'hello' >= NaN                                      // false
 'hello' >= a >= b >= c >= d >= e >= f               // false
 
+// less than or equal comparison <= operator
+
+null <= undefined                                   // false
+null <= true                                        // true
+null <= false                                       // true
+undefined <= true                                   // false
+undefined <= false                                  // false
+undefined <= 5                                      // false
+true <= false                                       // false
+true <= 2                                           // true
+false <= 4                                          // true
+false <= NaN                                        // false
+5 <= 3                                              // false
+5 <= NaN                                            // false
+'hello' <= NaN                                      // false
+'hello' <= a <= b <= c <= d <= e <= f               // false
+
+
 

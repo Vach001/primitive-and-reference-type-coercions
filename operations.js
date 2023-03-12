@@ -78,3 +78,13 @@ let f = {
 // (d)++                // 22       // 22            // 23
 // (e)++                // NaN      // NaN           // NaN
 // (f)++                // 5        // 5             // 6
+
+// before and after postfix -- operator
+                        // Before   //At that time   // After
+// (a)--                // 224      // 224           // 223 
+// (b)--                // NaN      // NaN           // NaN
+// (c)--                // NaN      // NaN           // NaN
+// (d)--                // 22       // 22            // 21
+// (e)--                // NaN      // NaN           // NaN
+// (f)--                // 5        // 5             // 4
+

@@ -124,4 +124,11 @@ f[f.hasOwnProperty('valueOf') ? 'valueOf' : 'toString'] () // 5
 // 'valueOf' in 1              // false
 // 'valueOf' in 'toString'     // false
 
+// delete operator
 
+// delete ({}).valueOf                  // true   
+// delete 1                             // true
+// delete a.x                           // true
+// a.y = 3; console.log(delete a.y);    // true
+// delete f                             // false
+// delete z                             // true

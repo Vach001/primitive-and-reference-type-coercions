@@ -116,5 +116,12 @@ f[f.hasOwnProperty('valueOf') ? 'valueOf' : 'toString'] () // 5
 // 'hello' instanceof String              // false
 // (function () { }) instanceof Function  // true
 
+//in operator
+
+// 'valueOf' in null           // false
+// 'valueOf' in undefined      // false
+// 'valueOf' in true           // false
+// 'valueOf' in 1              // false
+// 'valueOf' in 'toString'     // false
 
 

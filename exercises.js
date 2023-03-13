@@ -14,4 +14,4 @@ const object = {
 
 object.name = 'Artak, Artavazd, Samvel';
 
-console.log(object.name) //c[['Artak',5],['Artavazd', 8],['Samvel, 6]];
+console.log(object.name) // [['Artak',5],['Artavazd', 8],['Samvel, 6]];

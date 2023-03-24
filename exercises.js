@@ -5,7 +5,7 @@ const object = {
     
     set name(value) {
         const names = value.split(', ');
-        names.map((item) => object._name.push([item, item.length]));
+        object._name = names.map((item) => [item, item.length]);
   },
     get name() {
         return object._name;
